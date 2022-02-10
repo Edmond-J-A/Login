@@ -1,12 +1,14 @@
 #ifndef LOGIN_H
 #define LOGIN_H
-
+#include<instruction.h>
 #include <QDialog>
 #include<QUrl>
 #include <qdesktopservices.h>
 #include<QTcpSocket>
-#include<QDebug>
+#include<QJsonParseError>
+#include<QJsonArray>
 #include<QMessageBox>
+#include<instruction.h>
 namespace Ui {
 class Login;
 }
